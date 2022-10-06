@@ -18,7 +18,7 @@ These are the workflow files for helping people get started with GitHub Actions.
 * [code-scanning](code-scanning): starter workflows for [Code Scanning](https://github.com/features/security)
 * [icons](icons): svg icons for the relevant template
 
-Each workflow must be written in YAML and have a `.yml` extension. They also need a corresponding `.properties.json` file that contains extra metadata about the workflow (this is displayed in the GitHub.com UI).
+Each workflow must be written in YAML and have a `.yml` (or `.yaml`) extension. They also need a corresponding `.properties.json` file that contains extra metadata about the workflow (this is displayed in the GitHub.com UI).
 
 For example: `ci/django.yml` and `ci/properties/django.properties.json`.
 
